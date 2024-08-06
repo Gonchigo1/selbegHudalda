@@ -1,0 +1,101 @@
+.car {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22, 60%);
+    display: flex;
+  }
+  
+  .car-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center; 
+  }
+  
+  .car-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .car-left p {
+    color: #171717;
+    font-size: 20px; 
+    font-weight: 600;
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .hero-hand-icon img {
+    width: 50px;
+  }
+  
+  .car-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    width: fit-content; /* Adjust the width */
+    height: 60px; 
+    padding: 0 20px; /* Add padding to increase clickable area */
+    border-radius: 30px; 
+    margin-top: 20px; 
+    background: #0025f5;
+    color: white;
+    font-size: 18px; 
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .car-latest-btn img {
+    width: 20px; 
+  }
+  
+  .car_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .unelgee-button {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .arrow{
+    margin-left: 5px;
+  }
+  .unelgee-button img {
+    vertical-align: middle;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .car-left {
+      padding-left: 10px; 
+      padding-right: 10px; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .car-left p {
+      font-size: 20px; 
+    }
+  
+    .car-latest-btn {
+      height: 50px; 
+      padding: 0 15px; /* Adjust the padding */
+      font-size: 16px;
+      text-decoration: none; 
+    }
+  }
+  

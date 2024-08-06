@@ -1,0 +1,50 @@
+.Card-main {
+    position: relative; 
+    margin-inline-start: 1%;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .Card-main p {
+    position: absolute; 
+    top: 10px;
+    left: 150px;
+  }
+  
+  .Card-main img {
+    width: 130px;
+    height: 130px;
+    display: block; 
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 60px; 
+    right: 50px; 
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button img {
+    width: 30px; 
+    height: 30px;
+  }
+
+  .order-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+

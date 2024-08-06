@@ -1,0 +1,28 @@
+.Tuv{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.product--container {
+    display: flex;
+    margin-left: 10px;
+}
+.product-item img {
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.product-item {
+    margin-top:10px;
+    border: 1px solid black; 
+    border-radius: 2px;
+    margin-bottom:20px;
+}
+
+.product-item p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left:20px;
+    margin-bottom: 5px;
+}

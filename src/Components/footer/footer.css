@@ -1,0 +1,68 @@
+.footer {
+    border-radius: 20px;
+    background-color: rgb(178, 175, 175);
+    color: black;
+    padding: 20px; 
+    /* clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 295px; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    flex: 1;
+    border-right: 1px solid black; 
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.section p {
+    font-size: 15px;
+    margin-inline-start: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    color: rgb(0, 0, 0);
+}
+
+.address,
+.email,
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.border {
+    border-color: black;
+    border-right: 1px solid;
+    flex: 1;
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 25px;
+    background-color: rgb(153, 153, 153);
+}
+.section .about {
+    font-size:30px;
+    font-weight: 600;
+}
+
+.section .text {
+    display: flex;
+    flex: 1; 
+        font-size: 20px;
+}
+

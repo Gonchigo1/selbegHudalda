@@ -1,0 +1,166 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 2px 3px -2px black;
+}
+
+.nav-logo {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.nav-logo p {
+  color: black;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.nav-menu {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #626262;
+  font-size: 15px;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.nav-menu hr {
+  border: none;
+  width: 80px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: rgb(25, 0, 255);
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  width: 100px;
+  height: 38px;
+  outline: none;
+  border: 1px solid #e42222;
+  border-radius: 75px;
+  color: #f7f7f7;
+  font-size: 15px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-login-cart button:active {
+  background: #b61e1e;
+}
+
+.nav-login-cart a {
+  text-decoration: none; 
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart a {
+  text-decoration: none;
+  color: #515151; 
+  font-size: 15px; 
+  font-weight: 500; 
+}
+
+.nav-login-cart a:hover {
+  color: #000;
+}
+
+.nav-login-cart img {
+  width: 24px; 
+}
+
+.nav-cart-count {
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px; 
+  background-color: #fff; 
+  color: #000; 
+  border: 1px solid #000; 
+}
+
+.nav-cart-count {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  margin-left: -55px;
+  border-radius: 7px;
+  font-size: 10px;
+  background: rgb(0, 42, 255);
+  color: white;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-menu li a {
+  color: #000;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav-menu li a:hover {
+  background-color: #9b9b9b;
+}
+
+.nav-menu li a.active {
+  background-color: #9b9b9b;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.nav-logo img {
+  width: 40px;
+}
+
+.nav-logo p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-logo a {
+  text-decoration: none;
+}
